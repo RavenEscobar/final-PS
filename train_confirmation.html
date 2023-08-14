@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+    background-color:lightsteelblue;
+}
+nav {
+      background-color:rgb(210, 183, 240);
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style-type: none; 
+      margin: 0;
+      padding: 0;
+      display: flex;
+      overflow: hidden;
+      justify-content: center;
+    }
+
+    li {
+        display: inline;
+        float: left;
+    }
+
+    li a { 
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    p {
+        background-color: white;
+        margin: auto;
+        text-align: center;
+        width: 600px;
+    }
+</style>
+<body>
+    <header>
+        <h1> <center> CONFIRMATION OF TICKETS </center></h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="train_personal_details.html">Personal Details</a></li>
+            <li><a href="train_booking_details.html">Booking Details</a></li>
+            <li><a href="train_payment_details.html">Payment Details</a></li>
+            <li><a href="train_confirmation.html">Confirmation</a></li>
+        </ul>
+    </nav>
+
+    <p>
+        <br>
+        <b> Name: </b>
+        ?????
+        <br>
+        <br>
+        <b> Email address: </b>
+        ?????
+        <br>
+        <br>
+        <b> Train Name: </b>
+        xxyyzz Express
+        <br>
+        <br>
+        <b> Total price of tickets: </b>
+        $135
+        <br>
+        <br>
+        <b> From: </b>
+        Singapore
+        <br>
+        <br>
+        <b> To: </b>
+        Malaysia
+        <br>
+        <br>
+        <b> Departure time & date: </b>
+        Tues, 4 July, 11:45PM
+        <br>
+        <br>
+        <b> Arrival time & date: </b>
+        Wed, 5 July, 03:10AM
+        <br>
+        <br>
+        <button ><a href = "train_homepage.html" onclick="alert('You have successfully booked your ticket. Confirmation email will be sent.')">Confirm purchase</a></button>
+        <br>
+        <br>
+        <button><a href="train_homepage.html" onclick="alert('Your transaction has been cancelled')">Cancel purchase</a></button>
+    </p>
+    
+</body>
+</html>

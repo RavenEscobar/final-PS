@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+    background-color:lightsteelblue;
+}
+nav {
+      background-color:rgb(210, 183, 240);
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style-type: none; 
+      margin: 0;
+      padding: 0;
+      display: flex;
+      overflow: hidden;
+      justify-content: center;
+    }
+
+    li {
+        display: inline;
+        float: left;
+    }
+
+    li a { 
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    div {
+        background-color: white;
+        margin: auto;
+        text-align: center;
+        width: 600px;
+    }
+
+</style>
+<body>
+    <header>
+        <h1> <center> PAYMENT DETAILS </center></h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="train_personal_details.html">Personal Details</a></li>
+            <li><a href="train_booking_details.html">Booking Details</a></li>
+            <li><a href="train_payment_details.html">Payment Details</a></li>
+            <li><a href="train_confirmation.html">Confirmation</a></li>
+        </ul>
+    </nav>
+
+    <div class="payment details">
+        <br>
+        <div class="box">
+            <p>Cardholder's name: <input type="text"></p>
+        </div>
+        <br>
+        <div class="box">
+            <p>Credit card number: <input type="text"></p>
+        </div>
+        <br>
+        <div class="box">
+            <p>Expiration date: <input type="text"></p>
+        </div>
+        <br>
+        <div class="box">
+            <p>CVC Code: <input type="text"></p>
+        </div>
+        <br>
+        <button onclick="window.location.href = 'train_confirmation.html';">proceed</button> 
+        <br>
+        <br>
+
+    
+</body>
+</html>
